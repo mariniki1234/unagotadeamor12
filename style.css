@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,400;1,200;1,700&family=Martian+Mono:wght@700&family=Nunito:wght@600&display=swap');
+
+
+h1{
+  
+    font-size:  3.5em; 
+    font-family:  'abadi', monospace;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    color: rgb(243, 238, 238)
+   
+}
+input{
+    font-family: 'Chivo Mono', monospace;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+
+    color: var(color-white);
+    min-height: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: var(--font-main);
+    background: var(--color-gradient), url(letters.gif) no-repeat center center fixed;
+    background-image: url("/momo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+span{
+    padding: 5px;
+    border: 5px solid; color: rgba(206, 240, 236, 0.96);
+    color: white;
+    border-radius: 5px;
+    font-family: 'fantasy'
+}
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+
+
+label{
+    color:#fff;
+    font-size:aquamarine
+}
+
+button{
+    font-family: var(--font-main);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: var(--color-secondary);
+    color: var(color white);
+    border: none;
+    margin-bottom: 0.10 px;
+    width: 500px;
+    --color-secondary: rgb(158, 220, 224);
+    --color-placeholder-secondary:#E9E4F0;
+    --color-placeholder-main: #D3CCE3;
+    --font-main: 'Comfortaa', cursive;
+}
+
+button:hover{
+    background-color: var(--color-secondary);
+    box-shadow: 0 0 0.5rem var(--color-secondary);
+}

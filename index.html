@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodificadorYDecodificador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Secretos numéricos</h1>
+    <div> 
+    <label>Mensaje</label>
+    <input id="msg" type="text" placeholder="Escribe tu mensaje">
+    <br>
+    <br>
+    <label>password</label>
+    <input id="pass" type="password">
+    <br>
+    <br>
+    <button onclick="encriptar()">Encriptar</button>
+    <br>
+    <br>
+    <label>Mensaje encriptado:</label>
+    <span id="demo1"></span>
+    <br>
+    <br>
+    <label>Mensaje Código:</label>
+    <input id="msgCodigo" type="text">
+    <br>
+    <br>
+    <button onclick="desencriptar()">Desencriptar</button>
+    <br>
+    <br>
+    <label>Mensaje real:</label>
+    <span id="demo2"></span>
+    <br>
+    <br>
+    <span id="error"></span>
+</div>
+        <script src="assets/js/script.js"> </script>
+</body>
+</html>
